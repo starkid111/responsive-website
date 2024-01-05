@@ -357,7 +357,7 @@
     display: flex;
     z-index: 5;
     border: 1px solid red;
-    width: 100%;
+    width: 70%;
 }
 
 .social-links img {
@@ -610,6 +610,10 @@ input,textarea {
         padding: 100px 30px;
     }
 
+    .section4 {
+        padding: 100px 30px;
+    }
+
     .section5 {
         padding: 100px 30px;
     }
@@ -632,4 +636,249 @@ input,textarea {
         padding: 10px 30px;
     }
    
+}
+
+
+@media screen and (max-width:900px) {
+
+    .nav {
+        padding: 25px 30px;
+    }
+
+    .hero {
+        gap: 30px;
+        padding:20px;
+    }
+
+    .hero-content h3 {
+        font-size: 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 40px;
+    }
+    
+    .hero-content h2 {
+        font-size: 25px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-image img {
+        width: 350px;
+        height: 440px;
+    }
+
+    .section2 {
+        padding: 50px 20px;
+    }
+
+    .section3 {
+        padding: 50px 20px;
+    }
+
+    .section3-content h1 {
+        color: #333;
+        font-size: 44px;
+        font-weight: 500;
+    }
+    
+    .section3-row {
+        gap: 15px;
+    }
+    
+    .row3 {
+        padding: 15px 30px;
+    }
+    
+    .row3 h2 {
+        font-size: 36px;
+    }
+    
+    .row3 p {
+        font-size: 16px;
+    }
+
+    .section4 {
+        padding: 50px 20px;
+    }
+
+    .section4-content h1 {
+        color: #333;
+        font-size: 44px;
+        font-weight: 500;
+    }
+ 
+   .section5 {
+    padding: 50px 20px;
+   }
+
+
+   .section5-content {
+    gap: 45px;
+}
+
+.section5-content h1 {
+    font-size: 34px;
+}
+
+
+.content5{
+    gap: 35px;
+}
+
+
+.section5-text {
+   gap: 45px;
+
+}
+
+.testimonial img {
+    width: 40px;
+}
+
+.testimonial p {
+    font-size: 24px; 
+}
+
+
+.testimonial-name h1{
+    font-size: 20px;
+
+}
+
+
+
+.section6 {
+    padding: 50px 20px;
+}
+
+
+.section6-content {
+    gap: 45px;
+}
+
+
+
+.text6 {
+    z-index: 2;
+}
+
+.text6 p {
+    font-size: 27px;
+}
+
+.text6 h2 {
+    font-size: 44px;
+}
+
+.section7 {
+    padding: 50px 20px;
+}
+
+
+
+.text7 h1 {
+    font-size: 45px;
+}
+
+.text7 p {
+    font-size: 20px;
+}
+
+
+.section8 {
+    padding: 50px 20px;
+}
+
+.section8-content {
+    gap: 40px;
+}
+
+.section8-content h1 {
+    font-size: 40px;
+}
+
+.content8 {
+    gap: 22px;
+}
+
+
+.card8-text {
+    padding: 15px;
+    gap: 45px;
+    margin-top:-10px;
+}
+
+
+.card-t p {
+    font-weight: 300;
+}
+
+.card-p {
+    font-size: 20px;
+}
+
+
+.read p {
+    font-size: 14px;
+}
+
+.read img {
+    width: 12%;
+}
+
+
+.section9 {
+    padding: 50px 20px;
+}
+
+.section9-content {
+    gap: 45px;
+}
+
+
+.section9-content h1 {
+    font-size: 40px;
+}
+
+
+
+.content9 {
+    gap: 50px;
+}
+
+.content9-p {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+
+.section9-text h2 {
+    gap: 10px;
+     font-size: 16px;
+}
+
+.section9-form {
+    padding: 70px 50px;  
+}
+
+.form {
+    gap: 30px;
+}
+
+
+.send {
+    
+    padding: 12px 30px;
+    gap: 15px;
+}
+
+}
+
+
+@media screen and (max-width:768px) {
+    
 }
