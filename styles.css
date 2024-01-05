@@ -257,7 +257,7 @@
 
 
 .section5-image img {
-    width: 100%;
+    width: 300px;
 }
 
 .section5-text {
@@ -265,7 +265,7 @@
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-   gap: 40px;
+   gap: 60px;
 
 }
 
@@ -357,6 +357,11 @@
     display: flex;
     z-index: 5;
     border: 1px solid red;
+    width: 100%;
+}
+
+.social-links img {
+    width: 100%;
 }
 
 /**Section seven**/
@@ -581,4 +586,50 @@ input,textarea {
     color: #333;
     font-size: 14px;
     font-weight: 400;
+}
+
+
+
+
+/**Responsive Website**/
+
+@media screen and (max-width:1200px) {
+    .hero {
+        padding: 25px 30px;
+    }
+
+    .icons {
+        padding: 25px 30px;
+    }
+
+    .section2 {
+        padding: 100px 30px;
+    }
+
+    .section3 {
+        padding: 100px 30px;
+    }
+
+    .section5 {
+        padding: 100px 30px;
+    }
+
+    .section6 {
+        padding: 80px 30px;
+    }
+
+    .section7 {
+        padding: 80px 30px;
+    }
+
+    .section8 {
+        padding: 80px 30px;
+    }
+    .section9 {
+        padding: 80px 30px;
+    }
+    .footer {
+        padding: 10px 30px;
+    }
+   
 }
