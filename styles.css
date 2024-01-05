@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 90px;
+    width: 100%;
+}
+
+
+/**hero section**/
+
+.hero-container {
+    border: 1px solid red;
+    width: 100%;
+}
+
+.hero {
+   border: 1px solid red;
+   display: flex;
+   align-items: stretch;
+   gap: 50px;
+   padding: 25px 90px;
+}
+
+
+.hero-content {
+    border: 1px solid red;
+   
+}
+
+.line {
+   display: flex;
+    width:48px;
+    height:2px;
+    background-color:#333;
+    color: #333;
+
+}
+
+.hero-content h3 {
+    display: flex;
+    align-items: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.hero-content h1 {
+    color: #333;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.hero-content h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.hero-content p {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.hero-image {
+    border: 1px solid red;
+}
+
+.hero-image img {
+    width: 450px;
+    height: 540px;
+}
+
+.icons {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 90px;
+}
+
+.socials {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    
+}
+
+
+
+/**Section Two**/
+
+.section2 {
+    padding: 100px 150px;
+    border: 1px solid red;
+}
+
+.section2-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.section2-content img {
+    width: 100%;
+}
+
+
+/**Section three**/
+
+.section3 {
+     border:1px solid red;
+     padding: 100px 150px;
+}
+
+.section3-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.section3-content h1 {
+    color: #333;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.section3-row {
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.row3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 20px 40px;
+}
+
+.row3 h2 {
+    color: #FFF;
+    font-size: 46px;
+    font-weight: 400;
+    margin-top:20px;
+}
+
+.row3 p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.read-more {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+
+}
+
+.read-more p {
+   margin-top: 0;
+}
+
+
+/**Section-four**/
+
+.section4 {
+    border: 1px solid red;
+    padding: 100px 150px;
+    width: 100%;
+}
+
+.section4-content {
+    border: 1px solid red;
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+   justify-content: center;
+   align-items: center;
+}
+
+.section4-content h1 {
+    color: #333;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.section4-content p {
+    color: #333;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.section4-images {
+    width: 100%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row: span 3;
+}
+
+.section4-images img {
+    width: 100%;
+}
+
+
+/**Section 5**/
+
+.section5 {
+     border: 1px solid red;
+     padding: 100px 150px;
+}
+
+.section5-content {
+    border: 1px solid red ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.section5-content h1 {
+    color: #333;
+    font-size: 44px;
+    font-weight: 500;
+}
+
+
+.content5{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.section5-image img {
+    width: 100%;
+}
+
+.section5-text {
+    position: relative;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+   gap: 40px;
+
+}
+
+.testimonial img {
+    border: 1px solid red;
+    width: 50px;
+}
+
+.testimonial p {
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+}
+.testimonial-name {
+  margin-top: 10px;
+}
+
+.testimonial-name h1{
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.quote2 {
+    position: absolute;
+    right: 0;
+}
+
+
+/**Section six**/
+
+.section6 {
+    border: 1px solid red;
+    padding: 80px 150px;
+    width: 100%;
+    position: relative;
+    background-color: #333;
+}
+
+.hello {
+    position: absolute;
+    opacity: 0.7;
+    
+}
+
+.hello img {
+    width: 80%;
+    
+}
+
+.section6-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.button{
+    z-index: 2;
+    display: flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+    background-color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.text6 {
+    z-index: 2;
+}
+
+.text6 p {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.text6 h2 {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+.social-links  {
+    display: flex;
+    z-index: 5;
+    border: 1px solid red;
+}
+
+/**Section seven**/
+.section7 {
+    border: 1px solid red;
+    padding: 100px 200px;
+    position: relative;
+}
+
+.project {
+    position: absolute;
+    top: 20px;
+}
+
+.project img {
+    width: 80%;
+    opacity: 0.6;
+}
+
+.section7-content {
+    border: 1px solid red;
+}
+
+.content7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text7 {
+    z-index: 2;
+}
+
+.text7 h1 {
+    color: #333;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.text7 p {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+/**Section 8**/
+.section8 {
+    border: 1px solid red;
+    padding: 100px 150px;
+}
+
+.section8-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.section8-content h1 {
+    color: #333;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.content8 {
+    border: 1px solid red;
+    display: flex;
+    gap: 30px;
+}
+
+
+.card8 img {
+    width: 100%;
+}
+
+.card8-text {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top:-10px;
+}
+
+.card-t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-t p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.read {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.read p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.read img {
+    width: 15%;
+}
+
+
+/**Section nine**/
+
+.section9 {
+    border: 1px solid red;
+    padding: 100px 150px;
+}
+
+.section9-content {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section9-content h1 {
+    color: #333;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+
+.section9-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content9 {
+    display: flex;
+    gap: 70px;
+}
+
+.content9-p {
+    color: #333;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 52px;
+}
+
+
+.section9-text {
+    border: 1px solid red;
+}
+
+.section9-text h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+     font-size: 20px;
+     font-weight: 300;
+}
+
+.section9-form {
+    border: 1px solid red;
+    padding: 80px 60px;
+    background-color:#333;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color:#333;
+    gap: 40px;
+}
+
+input,textarea {
+    border: none;
+    border-bottom: 1px solid #FFF;
+    background:none;
+}
+
+.send {
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    align-self: end;
+    background: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+
+/**Footer section**/
+
+.footer {
+    border: 1px solid red;
+    padding:10px 100px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
