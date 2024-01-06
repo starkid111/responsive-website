@@ -138,19 +138,28 @@
 .row3 {
     display: flex;
     flex-direction: column;
-    background-color: #333;
+    background: #D6D6D6;
     padding: 20px 40px;
+    color: #333;
+}
+
+.active {
+    background-color: #333;
+}
+
+.active h2, .active p {
+    color: #FFF !important;
 }
 
 .row3 h2 {
-    color: #FFF;
+    color: #333;
     font-size: 46px;
     font-weight: 400;
     margin-top:20px;
 }
 
 .row3 p {
-    color: #FFF;
+    color: #333;
     font-size: 18px;
     font-weight: 400;
     margin-top: 10px;
