@@ -1126,6 +1126,11 @@ input,textarea {
     display: none;
    }
 
+   .mlogo, .mmenu {
+    display: block;
+}
+
+
 
 
 .hero {
