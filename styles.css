@@ -13,27 +13,24 @@
     width: 100%;
 }
 
+.mlogo, .mmenu {
+    display: none;
+}
+
 
 /**hero section**/
 
 .hero-container {
-    border: 1px solid red;
     width: 100%;
 }
 
 .hero {
-   border: 1px solid red;
    display: flex;
    align-items: stretch;
    gap: 50px;
    padding: 25px 90px;
 }
 
-
-.hero-content {
-    border: 1px solid red;
-   
-}
 
 .line {
    display: flex;
@@ -74,9 +71,6 @@
     margin-top: 20px;
 }
 
-.hero-image {
-    border: 1px solid red;
-}
 
 .hero-image img {
     width: 450px;
@@ -84,7 +78,6 @@
 }
 
 .icons {
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     padding: 25px 90px;
@@ -102,12 +95,10 @@
 /**Section Two**/
 
 .section2 {
-    padding: 100px 150px;
-    border: 1px solid red;
+    padding: 60px 150px;
 }
 
 .section2-content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -122,12 +113,10 @@
 /**Section three**/
 
 .section3 {
-     border:1px solid red;
-     padding: 100px 150px;
+     padding: 60px 150px;
 }
 
 .section3-content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -141,7 +130,6 @@
 }
 
 .section3-row {
-    border: 1px solid red;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -171,7 +159,6 @@
 .read-more {
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
     margin-top: 25px;
     margin-bottom: 25px;
    
@@ -186,13 +173,11 @@
 /**Section-four**/
 
 .section4 {
-    border: 1px solid red;
-    padding: 100px 150px;
+    padding: 60px 150px;
     width: 100%;
 }
 
 .section4-content {
-    border: 1px solid red;
    display: flex;
    flex-direction: column;
    gap: 60px;
@@ -214,12 +199,12 @@
 
 .section4-images {
     width: 100%;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    grid-row: span 3;
+    height: auto;
 }
+
 
 .section4-images img {
     width: 100%;
@@ -229,12 +214,10 @@
 /**Section 5**/
 
 .section5 {
-     border: 1px solid red;
-     padding: 100px 150px;
+     padding: 60px 150px;
 }
 
 .section5-content {
-    border: 1px solid red ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,7 +245,6 @@
 
 .section5-text {
     position: relative;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
    gap: 60px;
@@ -270,7 +252,6 @@
 }
 
 .testimonial img {
-    border: 1px solid red;
     width: 50px;
 }
 
@@ -298,8 +279,7 @@
 /**Section six**/
 
 .section6 {
-    border: 1px solid red;
-    padding: 80px 150px;
+    padding: 60px 150px;
     width: 100%;
     position: relative;
     background-color: #333;
@@ -356,7 +336,6 @@
 .social-links  {
     display: flex;
     z-index: 5;
-    border: 1px solid red;
     width: 70%;
 }
 
@@ -366,8 +345,7 @@
 
 /**Section seven**/
 .section7 {
-    border: 1px solid red;
-    padding: 100px 200px;
+    padding: 60px 200px;
     position: relative;
 }
 
@@ -381,9 +359,6 @@
     opacity: 0.6;
 }
 
-.section7-content {
-    border: 1px solid red;
-}
 
 .content7 {
     display: flex;
@@ -409,12 +384,10 @@
 
 /**Section 8**/
 .section8 {
-    border: 1px solid red;
-    padding: 100px 150px;
+    padding: 60px 150px;
 }
 
 .section8-content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -429,7 +402,6 @@
 }
 
 .content8 {
-    border: 1px solid red;
     display: flex;
     gap: 30px;
 }
@@ -486,12 +458,10 @@
 /**Section nine**/
 
 .section9 {
-    border: 1px solid red;
-    padding: 100px 150px;
+    padding: 60px 150px;
 }
 
 .section9-content {
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -526,10 +496,6 @@
 }
 
 
-.section9-text {
-    border: 1px solid red;
-}
-
 .section9-text h2 {
     display: flex;
     align-items: center;
@@ -540,7 +506,6 @@
 }
 
 .section9-form {
-    border: 1px solid red;
     padding: 80px 60px;
     background-color:#333;
 }
@@ -573,7 +538,6 @@ input,textarea {
 /**Footer section**/
 
 .footer {
-    border: 1px solid red;
     padding:10px 100px;
 }
 
@@ -880,5 +844,438 @@ input,textarea {
 
 
 @media screen and (max-width:768px) {
+    .hero {
+       display: flex;
+       flex-direction: column;
+    }
     
+    
+    .hero-content h3 {
+        font-size: 34px;
+    }
+    
+    .hero-content h1 {
+        font-size: 74px;
+    }
+    
+    .hero-content h2 {
+        font-size: 40px;
+    }
+    
+    .hero-content p {
+        font-size: 24px;
+    }
+   
+    
+    .hero-image img {
+        width: 100%;
+        height: auto;
+      
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .scroll {
+        display: none;
+    }
+    .space {
+        display: none;
+    }
+    
+   
+   .section3-content {
+       gap: 30px;
+       width: 100%;
+       align-items: stretch;
+   }
+
+   .section3-content h1 {
+    text-align: center;
+   }
+   
+   
+   .section3-row {
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       justify-content: stretch;
+       
+   }
+   
+   .row3 {
+       gap: 30px;
+   }
+   
+   .row3 h2 {
+    font-size: 46px;
+   }
+ 
+   
+   .row3 p {
+       font-size: 18px;
+   }
+   
+   .read-more {
+       display: flex;
+      justify-content: flex-start;
+       gap: 20px;
+   }
+
+ 
+
+
+.section4-content h1 {
+    font-size: 54px;
+}
+
+.section4-content p {
+   font-size: 18px;
+}
+
+.section4-images {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 20px;
+}
+
+
+.section5-content {
+    gap: 30px;
+}
+
+.section5-content h1 {
+    font-size: 44px;
+}
+
+
+.content5{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section5-image {
+    align-self: center;
+}
+
+
+.testimonial img {
+    width: 60px;
+}
+
+.slider {
+    align-self: center;
+}
+
+
+.hello img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.section7 {
+    padding: 50px 10px;
+}
+
+
+.project img {
+  width: 100%;
+}
+
+.section7-content {
+    width: 100%;
+}
+
+
+.text7 h1 {
+    font-size: 30px;
+}
+
+.text7 p {
+    font-size: 18px; 
+}
+
+
+.section8-content {
+    gap: 30px;
+    width: 100%;
+    align-items: stretch;
+}
+
+.section8-content h1 {
+    font-size: 54px;
+}
+
+.content8 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.card8-text {
+    gap: 60px;
+}
+
+
+.card-t p {
+    font-size: 14px;
+}
+
+.card-p {
+    font-size: 24px;
+}
+
+
+.read {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.read p {
+    font-size: 18px;
+}
+
+.read img {
+    width: 10%;
+}
+
+.section9-content {
+    gap: 40px;
+}
+
+
+.section9-content h1 {
+    font-size: 54px;
+}
+
+
+.section9-text {
+    gap: 70px;
+}
+
+.content9 {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content9-p {
+    font-size: 40px;
+}
+
+
+
+.section9-text h2 {
+     font-size: 20px;
+}
+
+.section9-form {
+    padding: 80px 60px;
+}
+
+.form {
+    gap: 60px;
+}
+
+.send {
+    padding: 16px 40px;
+
+}
+
+
+
+
+    
+}
+
+
+
+
+@media screen and (max-width:500px) {
+    
+
+    .nav {
+        padding: 25px 10px;
+    }
+    
+    .content7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    
+    
+
+}
+
+
+@media screen and (max-width:350px) {
+   .search, .menu ,.logo  {
+    display: none;
+   }
+
+
+
+.hero {
+   padding:25px 10px;
+}
+
+
+
+.hero-content h1 {
+    font-size: 32px;
+}
+
+.hero-content h2 {
+    font-size: 18px;
+}
+
+.hero-content p {
+    font-size: 16px;
+}
+
+.icons {
+    padding: 25px 10px;
+}
+
+
+
+.section5 {
+    padding: 50px 10px;
+}
+
+
+.section5-content h1 {
+   font-size: 35px;
+}
+
+.section5-image img {
+   width: 100%;
+}
+
+
+.testimonial img {
+   width: 40px;
+}
+
+.testimonial p {
+   font-size: 18px;
+}
+
+.testimonial-name h1{
+   font-size: 20px;
+}
+
+
+
+.section6 {
+    padding: 50px 10px;
+}
+
+.project {
+    display: none;
+}
+
+.hello {
+    display: none;
+}
+
+.text6 h2 {
+    font-size: 35px;
+}
+
+.social-links {
+    width: 90%;
+}
+
+
+
+.section8 {
+    padding: 50px 10px;
+}
+
+
+.section8-content h1 {
+    font-size: 35px;
+}
+
+
+.card-p {
+    font-size: 18px;
+}
+
+
+
+.read p {
+    font-size: 16px;
+}
+
+
+
+.section9 {
+    padding: 50px 10px;
+}
+
+
+
+.section9-content h1 {
+    font-size: 35px;
+}
+
+
+
+.content9 {
+    gap: 50px;
+}
+
+.content9-p {
+    font-size: 20px;
+}
+
+
+
+.section9-text h2 {
+     font-size: 18px;
+}
+
+.section9-form {
+    padding: 40px 20px;
+}
+
+.form {
+    gap: 30px;
+}
+
+
+.send {
+    padding: 10px 25px;
+    
+}
+
+/**Footer section**/
+
+.footer {
+    padding:10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    align-items: center;
+}
+
+
 }
