@@ -951,6 +951,14 @@ input,textarea {
     grid-gap: 20px;
 }
 
+.grid4 {
+    margin-top:0;
+}
+
+.grid6 {
+    margin-top: 0;
+}
+
 
 .section5-content {
     gap: 30px;
